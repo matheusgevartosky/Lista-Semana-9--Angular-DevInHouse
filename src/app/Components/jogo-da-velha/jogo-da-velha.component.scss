@@ -1,0 +1,49 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  margin-top: 15px;
+}
+
+.gameContainer{
+  display: flex;
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+table{
+  align-items: center;
+
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+}
+
+tr{
+  height: 70px;
+  width: 30px;
+}
+
+td{
+  padding: 0;
+  height: 70px;
+  width: 30px;
+  font-size: 30px;
+  text-align: center;
+  ;
+
+}
+
+button{
+  margin-top: 50px;
+}
